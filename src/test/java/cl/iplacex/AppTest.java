@@ -7,7 +7,10 @@ public class AppTest {
 
     @Test
     void pruebaSuma() {
-        int resultado = 2 + 3;
+
+        Calculadora calculadora = new Calculadora();
+
+        int resultado = calculadora.sumar(2, 3);
 
         assertEquals(5, resultado);
     }
